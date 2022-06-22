@@ -60,6 +60,7 @@ body {
   background-color: white;
   z-index: 3;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .wishes p {
