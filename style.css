@@ -1,14 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-image: url("./images/birthday_background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: lightblue;
-  background-blend-mode: multiply;
+  overflow-y: scroll;
 }
 
 #kemi-bday {
@@ -16,13 +9,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("./images/birthday_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  background-blend-mode: multiply;
   height: 100vh;
-  position: relative;
 }
 
 .greeting h1 {
   font-family: "Dancing Script", cursive;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
   color: white;
   text-align: center;
@@ -30,7 +27,7 @@ body {
 
 .greeting h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
   color: white;
   text-align: center;
@@ -38,15 +35,15 @@ body {
 
 .greeting h3 {
   font-family: "Marck Script", cursive;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   color: wheat;
   text-align: center;
 }
 
 .picture {
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
   /* background-color: white; */
   z-index: 3;
   display: flex;
@@ -55,8 +52,8 @@ body {
 }
 
 .picture img {
-  height: 280px;
-  width: 280px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   z-index: 3;
   object-fit: cover;
@@ -68,67 +65,12 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 17px;
+  margin-top: 15px;
   font-family: "Montserrat", sans-serif;
   color: #fca311;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bolder;
   max-width: 600px;
   padding: 10px;
   text-shadow: 2px 5px 2px rgb(13, 12, 51);
 }
-
-/* .send {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#send {
-  margin-top: 20px;
-  font-family: "Mukta", sans-serif;
-  font-size: 15px;
-  border-radius: 10px;
-  margin-bottom: 5px;
-  padding: 10px;
-  background-color: lightskyblue;
-  border: none;
-  outline: none;
-}
-
-button {
-  width: 150px;
-  padding: 10px 5px;
-  border-radius: 5px;
-  font-size: 15px;
-  font-family: "Dancing Script", cursive;
-  font-weight: bolder;
-  background-color: rgb(8, 8, 32);
-  color: white;
-}
-
-button:hover {
-  background-color: white;
-  color: rgb(8, 8, 32);
-}
-
-.wisher {
-  margin-top: 10px;
-}
-
-label {
-  color: rgb(219, 164, 61);
-  font-family: "Open Sans", sans-serif;
-  font-weight: bolder;
-}
-
-input {
-  width: 200px;
-  height: 30px;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  padding: 2px;
-  font-size: 16px;
-} */
