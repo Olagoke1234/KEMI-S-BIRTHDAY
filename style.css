@@ -16,13 +16,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 100vh;
   position: relative;
 }
 
 .greeting h1 {
   font-family: "Dancing Script", cursive;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   color: white;
   text-align: center;
@@ -38,7 +38,7 @@ body {
 
 .greeting h3 {
   font-family: "Marck Script", cursive;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   color: wheat;
   text-align: center;
@@ -67,13 +67,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: justify;
   margin-top: 17px;
-  font-family: "Abril Fatface", cursive;
-  color: rgb(21, 34, 29);
-  font-size: 20px;
+  font-family: "Marck Script", cursive;
+  color: rgb(12, 24, 66);
+  font-size: 22px;
   max-width: 600px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .send {
