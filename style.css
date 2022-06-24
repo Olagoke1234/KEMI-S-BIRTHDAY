@@ -67,16 +67,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: justify;
+  text-align: center;
   margin-top: 17px;
-  font-family: "Marck Script", cursive;
-  color: rgb(12, 24, 66);
-  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: #fca311;
+  font-size: 25px;
+  font-weight: bolder;
   max-width: 600px;
-  padding: 20px;
+  padding: 10px;
+  text-shadow: 2px 5px 2px rgb(13, 12, 51);
 }
 
-.send {
+/* .send {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,4 +131,4 @@ input {
   border: none;
   padding: 2px;
   font-size: 16px;
-}
+} */
