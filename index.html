@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Happy Birthday</title>
+    <title>Happy Birthday To Me</title>
   </head>
   <body>
     <main id="kemi-bday">
@@ -21,20 +21,35 @@
         <h3>26th June</h3>
       </div>
       <div class="picture">
-        <img src="./images/celebrants picture.jpeg" alt="Kemi's Picture" />
+        <img src="./images/celebrants picture2.jpeg" alt="Kemi's Picture" />
       </div>
       <div class="wishes">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magni
-          in sapiente vero nostrum enim similique itaque nisi, delectus
-          distinctio!
+          Happy Birthday! Remember that for every day of your life there is
+          Someone taking care of you, and may God continue to hold you in His
+          gentle hands and bring you peace.
         </p>
       </div>
-      <form>
+      <form action="https://formsubmit.co/kemikosebi@gmail.com" method="post">
         <div class="send">
-          <textarea name="Greetings" id="send" cols="40" rows="3">
-Greet Oluwakemi(120 letters max)</textarea
-          >
+          <div class="wisher">
+            <label for="Name">Wisher's Name:</label>
+            <input type="name" name="Name" id="name" required />
+          </div>
+
+          <textarea
+            name="Greetings"
+            id="send"
+            cols="40"
+            rows="3"
+            placeholder="Greet Oluwakemi(120 letters max)"
+            required
+          ></textarea>
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/thanks.html"
+          />
           <input type="hidden" name="_captcha" value="false" />
           <button class="submit" type="submit">Send Greetings</button>
         </div>

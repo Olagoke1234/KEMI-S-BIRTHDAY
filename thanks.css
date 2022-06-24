@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(106, 106, 143);
+  background-image: url(./images/thanks-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: system-ui;
+  font-size: 100px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  max-width: 600px;
+}

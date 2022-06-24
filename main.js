@@ -1,8 +1,5 @@
-const submitBtn = document.querySelector("submit");
-const textArea = document.querySelector("send");
+const submitBtn = document.querySelector(".submit");
 
-submitBtn.addEventListener("click", myFunction);
-
-function myFunction() {
-  alert("Thank you!");
-}
+submitBtn.addEventListener("click", () => {
+  alert("Kindly fill the required sections. THANK YOU!");
+});
