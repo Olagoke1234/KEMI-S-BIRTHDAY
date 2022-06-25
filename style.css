@@ -17,6 +17,19 @@
   height: 100vh;
 }
 
+.greeting {
+  animation: greeting-load 1s ease-in;
+}
+
+@keyframes greeting-load {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .greeting h1 {
   font-family: "Dancing Script", cursive;
   font-size: 30px;
@@ -49,6 +62,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: picture-load 2s ease-in;
+}
+
+@keyframes picture-load {
+  0% {
+    transform: translateX(-200%);
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: translateX(0);
+    transform: scale(1);
+  }
 }
 
 .picture img {
@@ -58,6 +86,19 @@
   z-index: 3;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.wishes {
+  animation: wishes-load 1s ease-in;
+}
+
+@keyframes wishes-load {
+  0% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .wishes p {
